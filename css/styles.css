@@ -18,7 +18,7 @@
     height: 50px;
     display: flex;
     position: fixed;
-    
+    z-index: 1000;
 }
 .site-nav-box{
     width: 1200px;
