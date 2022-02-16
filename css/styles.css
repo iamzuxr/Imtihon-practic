@@ -94,13 +94,13 @@
     text-transform: capitalize;
     font-weight: bold;
     background-color: #fff;
-    padding: 70px 15px 20px 100px;
+    padding: 120px 15px 40px 100px;
 }
 .head-point-text{
     font-family: Poppins;
     font-size: 15px;
     background-color: #fff;
-    padding: 10px 0px 30px 100px;
+    padding: 10px 0px 100px 100px;
 }
 .head-point-link{
     width: 300px;
@@ -126,11 +126,27 @@
     background-color: #fff;
     position: relative;
     right: 130px ;
-    top: 140px;
+    top: 180px;
 }
 .head-point-second-img{
     background-color: #fff;
     margin-top: 10px;
 }
 /* head point finished */
+/* second part started */
+.second-part{
+    width: 1200px;
+    background-color: #fff;
+}
+.second-part-main{
+    width: 1200px;
+    background-color: #fff;
 
+}
+.second-part-title{
+    background-color: #fff;
+    font-family: poppins;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align:center;
+}
