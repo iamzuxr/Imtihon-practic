@@ -152,7 +152,7 @@
 .second-part-sources{
     width: 250px;
     background-color: #fff;
-    margin: 30px;
+    margin: 30px 30px 0px 30px ;
     display: flex;
     flex-wrap: nowrap;
     flex-basis: calc(33.3-90px);
@@ -239,17 +239,19 @@
 /* box three */
 .second-part-box-three{
     width: 500px;
-    height: 350px;
+    height: 310px;
     position: relative;
     top: 425px;
     right: 520px;
+    background-color: #fff;
 }
 .box-three{
     width: 550px;
-    height: 325px;
+    height: 310px;
     display: flex;
     border: #333 solid 1px;
     border-radius: 5px;
+    padding-top: 10px;
 }
 .box-three-title{
     text-transform: capitalize;
@@ -284,4 +286,209 @@
     color: aliceblue;
     background-color: #333;
     padding-left: 35px;
+}
+/* third part */
+.third-part{
+    width: 1200px;
+    min-height: auto;
+    background-color: #fff;
+    
+}
+.third-part-main{
+    display: flex;
+    background-color: #fff;
+    margin: 0px 100px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.about-us{
+    background-color: #fff;
+
+}
+.about-us-title{
+    font-family: Poppins;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #fff;
+    padding-top: 30px;
+}
+.about-us-text{
+    width: 400px;
+    font-family: Poppins;
+    font-size: 15px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+.about-us-statistics{
+    background-color: #fff;
+    display: flex;
+    padding-top: 30px;
+}
+.pupils-statistics, .teachers-statistics, .foreign-languages-statistics{
+    list-style-type: none;
+    
+    background-color: #fff;
+}
+.pupils-statistic-number,  .teachers-statistic-number, .languages-statistic-number{
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+    background-color: #fff;
+    text-align: center;
+}
+.pupils-statistic-text, .teachers-statistic-text, .languages-statistic-text{
+    font-family: Poppins;
+    background-color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.teachers-statistics, .foreign-languages-statistics{
+    margin-left: 20px;
+}
+.competition-bro{
+    width: 400px;
+    height: 360px;
+    background-color: #fff;
+    margin-left: 100px;
+}
+.fourth-part{
+    width: 1200px;
+    background-color: #fff;
+}
+.fourth-part-main{
+    width: 1200px;
+    background-color: #fff;
+}
+.fourth-part-title{
+    background-color: #fff;
+    width: 1200px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Poppins;
+    text-transform: capitalize;
+    text-align: center;
+}
+.fourth-part-sources{
+    display: flex;
+    width: 1200px;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    
+}
+.fourth-part-box{
+    background-color: #fff;
+    margin: 30px;
+    
+}
+.online-course{
+    background-color: #fff;
+}
+.online-course-title{
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #fff;
+}
+.online-course-text{
+    font-family: poppins;
+    background-color: #fff;
+
+}
+.online-course-price-box{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.online-course-price{
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.photo-second{
+    padding-bottom: 28px;
+}
+/* fourth part finished */
+/* fifth part started */
+.fifth-part{
+    width: 1200px;
+    background-color: #fff;
+}
+.fifth-part-main{
+    background-color: #fff;
+    display: flex;
+}
+.fifth-part-img{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    padding: 50px ;
+}
+.fifth-part-box{
+    width: 600px;
+    background-color: #fff;
+    padding-top: 60px;
+}
+.fifth-part-box-title{
+    background-color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: poppins;
+}
+.fifth-part-box-text{
+    background-color: #fff;
+    font-family: poppins;
+    padding-top: 20px;
+}
+.fifth-part-box-email{
+    background-color: #fff;
+}
+.email-box{
+    width: 300px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: #555 solid 1px;
+    text-align: center;
+}
+.subscribe-button{
+    width: 200px;
+    height: 50px;
+    background-color: #333;
+    border: #333 solid 1px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: poppins;
+    color: aliceblue;
+}
+/* fifth part finished */
+/* footer */
+.footer-logo{
+    display: flex;
+    background-color: #fff;
+}
+.foot-log1{
+    font-size: 36px;
+    background-color: #fff;
+    font-family: poppins;
+    font-weight: bold;
+    padding-left: 35px;
+}
+.foot-log2{
+    font-size: 36px;
+    background-color: #fff;
+    font-family: poppins;
+    font-weight: bold;
+    color: #555;
+}
+.footer-text{
+    width: 600px;
+    background-color: #fff;
+    font-size: 20px;
+    font-family: poppins;
+    padding: 15px 0px 0px 500px;
+
 }
